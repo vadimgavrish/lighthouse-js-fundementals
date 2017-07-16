@@ -5,7 +5,7 @@ function loopyLighthouse(range, multiples, words) {
         var arr = [];
 
         if (i % multiples[0] === 0 && i % multiples[1] === 0) {
-            arr.push(words[0] + words[1]);      // may not work
+            arr.push(words[0] + words[1]);    
         } else if (i % multiples[0] === 0) {
             arr.push(words[0]);
         } else if (i % multiples[1] === 0) {
@@ -19,5 +19,5 @@ function loopyLighthouse(range, multiples, words) {
         var counter = 0;
         console.log(arr[counter]);
         counter++;
-    }
+    }  
 }
